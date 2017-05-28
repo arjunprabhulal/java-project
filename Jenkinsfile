@@ -1,6 +1,6 @@
 pipeline {
   agent {
-	label 'Cenots'
+	label 'Centos'
 	}
   
   environment {
