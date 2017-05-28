@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+	label 'Cenots'
+	}
   
   environment {
     MAJOR_VERSION = 1
